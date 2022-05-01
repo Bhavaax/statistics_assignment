@@ -1,0 +1,10 @@
+> library(readxl)
+> datafile_1_ <- read_excel("C:/Users/magesh/Downloads/datafile (1).xls")
+> View(datafile_1_)
+> bhavani <- read_excel("C:/Users/magesh/Downloads/datafile (1).xls")
+> 
+> mean(bhavani$max_price) 
+[1] 2648.317
+> sd(bhavani$modal_price)
+[1] 993.4443
+> 
